@@ -1,0 +1,11 @@
+main: 'fr.ml.uhcprison.UHCPrison'
+name: 'UHCPrison'
+load: 'POSTWORLD'
+
+version: '1.0-SNAPSHOT'
+author: 'Loïc MAES'
+description: ''
+
+permissions:
+
+commands:
