@@ -8,17 +8,20 @@ public class UHCPrison extends JavaPlugin {
 
     @Override
     public void onLoad() {
-        // LOADING INFORMATION
+        // LOADING STUFF
+        this.plugin.onLoad();
     }
 
     @Override
     public void onEnable() {
         // ENABLING STUFF
+        this.plugin.onEnable();
     }
 
     @Override
     public void onDisable() {
         // DISABLING STUFF
+        this.plugin.onDisable();
     }
 
     public UHCPrisonPlugin getPlugin() {
