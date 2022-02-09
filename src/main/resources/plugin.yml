@@ -7,5 +7,28 @@ author: 'Loïc MAES'
 description: ''
 
 permissions:
+  uhcprison.commands.*:
+    children:
+      uhcprison.command.core.*: true
+
+  uhcprison.commands.core.*:
+    children:
+      uhcprison.commands.core.help: true
+      uhcprison.commands.core.reset: true
+      uhcprison.commands.core.config: true
+      uhcprison.commands.core.reload: true
+
+  uhcprison.commands.core.help:
+    description: "Afficher la page d'aide du plugin."
+  uhcprison.commands.core.config:
+    description: "Configurer le plugin."
+  uhcprison.commands.core.reset:
+    description: "Rétablir les valeurs par défaut."
+  uhcprison.commands.core.reload:
+    description: "Recharger le plugin."
 
 commands:
+  uhcprison:
+    description: "Commande principale du plugin."
+    aliases: [ "uhcp" ]
+    usage: "/uhcprison help"
