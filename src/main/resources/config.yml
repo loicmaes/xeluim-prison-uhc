@@ -1,0 +1,15 @@
+#################################################
+#              Xeluim - Prison UHC              #
+#                 1.0-SNAPSHOT                  #
+#################################################
+Settings:
+  Core:
+    Prefix: '&6&lUHC&8Prison &7&l⫻'
+
+  Game:
+    World_Prefix: 'uhc_'
+
+  Schematics:
+    Folder: 'schematics'
+    Disabled_Schematics:
+      # - 'prison.schem'
