@@ -1,0 +1,14 @@
+#################################################
+#              Xeluim - Prison UHC              #
+#                 1.0-SNAPSHOT                  #
+#################################################
+Messages:
+  Errors:
+    Settings:
+      Invalid_Value: 'Invalid value provided to $loc!'
+
+  Internal:
+    Settings:
+      Loading: 'Loading settings... It can take a while.'
+      Loaded: 'Settings loaded successfully!'
+      Error: 'A error occurred while loading settings... Error: $e'
