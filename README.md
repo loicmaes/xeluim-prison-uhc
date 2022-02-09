@@ -1,6 +1,5 @@
 # Xeluim - UHC Prison
 
----
 ## Informations générales
 | INFORMATION            |              VALEUR |
 |------------------------|--------------------:|
